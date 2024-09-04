@@ -1,0 +1,26 @@
+.header {
+   background-color: var(--primary-color);
+   color: white;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+ .link {
+   color: white;
+   text-decoration: none;
+   margin: 0 10px;
+   transition: all 0.1s ease-in-out;
+   padding: 0.5rem;
+   font-size: 1.25rem;
+ }
+
+ .link:hover {
+  background-color: rgb(136, 53, 53);
+  padding: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+ }
+
+ .link:active {
+  background-color: rgb(83, 38, 38);
+ }
