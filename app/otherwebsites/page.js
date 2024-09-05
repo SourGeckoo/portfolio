@@ -16,13 +16,16 @@ const websites = [
 
 export default function Projects() {
   return (
-    <div className = {styles.container}>
-      <h1 className= {styles.title}>Other Websites</h1>
-      <div className = {styles.bentoGrid}>
-        {websites.map((websites) => (
-          <WebsiteBox key={websites.slug} {...websites} />
-        ))}
+    <div className = {styles.page}>
+      <div className = {styles.container}>
+        <h1 className= {styles.title}>Other Websites</h1>
+        <div className = {styles.bentoGrid}>
+          {websites.map((websites) => (
+            <WebsiteBox key={websites.slug} {...websites} />
+          ))}
+        </div>
       </div>
     </div>
+    
   )
 }

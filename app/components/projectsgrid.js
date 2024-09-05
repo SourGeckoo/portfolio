@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './VariedBentoGrid.module.css';
+import styles from './projectsgrid.module.css';
 import BentoBox from './BentoBox';
 
 const VariedBentoGrid = ({ projects }) => {

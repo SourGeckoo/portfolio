@@ -1,7 +1,50 @@
+.page {
+  min-width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-image: url("/wallpaper.png");
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.container2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.453);
+  backdrop-filter: blur(20px);
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 25px;
+  font-size: 1.5rem;;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgba(36, 36, 36, 0.626);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  background-color: rgba(0, 0, 0, 0.84);
+  transform: translateY(3px);
+}
+
+.buttoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .bentoGrid {
@@ -11,23 +54,27 @@
   padding: 20px 0;
 }
 
-.title {
-  color: var(--primary-color);
-  font-size: 3rem;
-  border-color: rgb(48, 48, 48);
-  border-width: 2px;
-  border-style: dashed;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-
 .inlineimage {
   max-width: 500px;
   padding: 20px;
   padding-top: 0;
-  float: left;
+  float: right;
   padding-left: 0;
+}
+
+.massivetext {
+  font-size: 8rem;
+  margin-top: 0;
+  padding: 50px;
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.question {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root {
-  --primary-color: #9e4040;
+  --primary-color: #953d3d;
   --background-color: #000000;
   --text-color: #ffffff;
 }
@@ -55,4 +55,9 @@ p {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 1.3rem;
+}
+
+button {
+  font-family: 'DM Mono', Arial, sans-serif; /* FALLBACK FONT */
 }

@@ -4,7 +4,7 @@
    text-decoration: none;
    color: var(--text-color);
    transition: all 0.2s;
-   border-color: rgb(48, 48, 48);
+   border-color: rgb(120, 120, 120);
    border-width: 2px;
    border-style: dashed;
    padding: 30px;

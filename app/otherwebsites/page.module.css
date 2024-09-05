@@ -1,7 +1,16 @@
+.page {
+  min-width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-image: url("/wallpaper.png");
+}
+
 .container {
    max-width: 1200px;
    margin: 0 auto;
-   padding: 0 20px;
+   padding: 30px 20px;
  }
  
  .bentoGrid {
@@ -15,12 +24,13 @@
    color: var(--primary-color);
    font-size: 3rem;
    margin-bottom: 0;
-   border-color: rgb(48, 48, 48);
+   border-color: rgb(120, 120, 120);
    border-width: 2px;
    border-style: dashed;
    padding: 20px;
    display: flex;
    justify-content: center;
+   margin-top: 0;
  }
 
  .link {

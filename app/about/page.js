@@ -13,9 +13,11 @@ const socials = [
 
 export default function Projects() {
   return (
-    <div className = {styles.container}>
-      <h1 className= {styles.title}>About</h1>
-      <SocialsGrid projects = {socials}></SocialsGrid>
-    </div>
+    <div className = {styles.page}>
+      <div className = {styles.container}>
+        <h1 className= {styles.title}>About</h1>
+        <SocialsGrid projects = {socials}></SocialsGrid>
+      </div>
+    </div> 
   )
 }
