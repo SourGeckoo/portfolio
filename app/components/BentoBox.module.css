@@ -1,15 +1,6 @@
 .bentoBox {
-   background-color: rgb(32, 32, 32);
-   border-radius: 10px;
-   padding: 20px;
    text-decoration: none;
    color: var(--text-color);
-   transition: transform 0.2s, box-shadow 0.2s;
- }
- 
- .bentoBox:hover {
-   transform: translateY(-5px);
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
  }
  
  .title {

@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import BentoBox from '../components/BentoBox'
 import { DM_Mono, Work_Sans } from "next/font/google";
+import VariedBentoGrid from '../components/VariedBentoGrid';
 
 const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
 const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
@@ -32,11 +33,7 @@ export default function Projects() {
   return (
     <div className = {styles.container}>
       <h1 className= {styles.title}>projects</h1>
-      <div className = {styles.bentoGrid}>
-        {projects.map((project) => (
-          <BentoBox key={project.slug} {...project} />
-        ))}
-      </div>
+      <VariedBentoGrid projects = {projects}></VariedBentoGrid>
     </div>
   )
 }
