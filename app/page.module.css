@@ -22,6 +22,14 @@
   justify-content: center;
 }
 
+.inlineimage {
+  max-width: 500px;
+  padding: 20px;
+  padding-top: 0;
+  float: left;
+  padding-left: 0;
+}
+
 @media (max-width: 768px) {
   .bentoGrid {
     grid-template-columns: 1fr;

@@ -8,17 +8,10 @@ export default function Home() {
   return (
     <div className = {styles.container}>
       <h1 className= {styles.title}>Home</h1>
-      <h1>Welcome</h1>
-      <h2>This is a test</h2>
-      <h3>For global styling</h3>
-      <p>
-        For the entire website, when no external styles are applied from module.css files.
-        These styles could be used in articles, write-ups, general text, etc.
-      </p>
-      <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='blank'>this is a link</a>
-      <p></p>
-      <img src='rice v2.png'></img>
-      <p>Woah that's a big image...</p>
+
+      <h1>Welcome, traveller.</h1>
+      
+      <p> <img src = "cam.jpg" className = {styles.inlineimage}></img>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan neque in lacus efficitur maximus. Ut sollicitudin lobortis arcu, non pharetra dolor mollis sit amet. Suspendisse cursus diam ligula, in aliquet nunc tincidunt vel. Nulla gravida libero non dui dapibus, vitae porta est varius. Nunc justo nisi, tristique vel lobortis vitae, elementum at sapien. Sed eros nisl, sagittis at ultricies eu, hendrerit a eros. Maecenas congue lacus enim, vel interdum ipsum interdum non.</p>
     </div>
   )
 }
