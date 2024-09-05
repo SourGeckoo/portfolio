@@ -7,7 +7,7 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 export default function Home() {
   return (
     <div className = {styles.container}>
-      <h1 className= {styles.title} >title</h1>
+      <h1 className= {styles.title}>home</h1>
     </div>
   )
 }

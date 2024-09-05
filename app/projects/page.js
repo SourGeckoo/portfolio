@@ -8,22 +8,22 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 const projects = [
   { slug: 'project1',
      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula a dui id placerat.', 
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
       image: "fpvdrone.jpg" },
 
   { slug: 'project2', 
     title: 'Project 2', 
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula a dui id placerat.', 
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
     image: "computervision.png" },
 
   { slug: 'project3',
      title: 'Project 3', 
-     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula a dui id placerat.', 
+     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
      image: "7 segment.jpg" },
 
   { slug: 'project4', 
     title: 'Project 4', 
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula a dui id placerat. ', 
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
     image: "turret.png" },
 
 ]
@@ -31,7 +31,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className = {styles.container}>
-      <h1 className= {styles.title} >title</h1>
+      <h1 className= {styles.title}>projects</h1>
       <div className = {styles.bentoGrid}>
         {projects.map((project) => (
           <BentoBox key={project.slug} {...project} />
