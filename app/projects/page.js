@@ -28,7 +28,7 @@ const projects = [
 
   { slug: 'project5', 
     title: 'monopodo', 
-    description: 'Short description of project goes here', 
+    description: 'Simple podomoro timer made in Next.js (my first deployed website)', 
     image: "monopodo.png" },
 
 ]

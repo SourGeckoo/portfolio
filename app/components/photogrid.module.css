@@ -18,23 +18,10 @@
  
  .bentoItem {
    background-color: #101010;
-   border-color: rgb(48, 48, 48);
-   border-width: 2px;
-   border-style: dashed;
    padding: 30px;
    transition: transform 0.2s, background-color 0.2s;
    display: flex;
    flex-direction: column;
- }
- 
- .bentoItem:hover {
-   transform: translateY(-5px);
-   background-color: #1c1c1c;
- }
-
- .bentoItem:active {
-   transform: translateY(3px);
-   background-color: #000000;
  }
  
  .item1 {
@@ -48,19 +35,9 @@
  }
  
  .item3 {
-   grid-column: span 1;
+   grid-column: span 4;
    grid-row: span 1;
  }
-
- .item4 {
-   grid-column: span 2;
-   grid-row: span 1;
- }
-
- .item5 {
-  grid-column: span 1;
-  grid-row: span 1;
-}
  
  .bentoItem img {
    width: 100%;
