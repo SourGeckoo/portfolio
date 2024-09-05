@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import BentoBox from '../components/BentoBox'
 import { DM_Mono, Work_Sans } from "next/font/google";
 import VariedBentoGrid from '../components/VariedBentoGrid';
 
@@ -9,23 +8,28 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 const projects = [
   { slug: 'project1',
      title: 'FPV drone',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
+      description: 'Short description of project goes here', 
       image: "fpvdrone.jpg" },
 
   { slug: 'project2', 
-    title: 'Computer vision dashcam', 
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
-    image: "computervision.png" },
+    title: 'Computer vision cam', 
+    description: 'Short description of project goes here', 
+    image: "cam.jpg" },
 
   { slug: 'project3',
      title: 'Digital clock', 
-     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
+     description: 'Short description of project goes here', 
      image: "7 segment.jpg" },
 
   { slug: 'project4', 
     title: 'Auto turret', 
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
+    description: 'Short description of project goes here', 
     image: "turret.png" },
+
+  { slug: 'project5', 
+    title: 'monopodo', 
+    description: 'Short description of project goes here', 
+    image: "monopodo.png" },
 
 ]
 

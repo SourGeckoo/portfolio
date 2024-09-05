@@ -1,0 +1,9 @@
+.SocialsBox {
+   text-decoration: none;
+   color: var(--text-color);
+ }
+ 
+ .title {
+   color: var(--primary-color);
+   margin-top: 0;
+ }

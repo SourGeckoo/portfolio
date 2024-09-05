@@ -6,9 +6,9 @@ const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
 const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const socials = [
-  { slug: 'project1',
-    title: 'Github',
-    description: 'All source code and repositories are available here.'},
+  { title: 'Github',
+    description: 'All source code and repositories are available here.',
+    link: "https://github.com/SourGeckoo"},
 ]
 
 export default function Projects() {
