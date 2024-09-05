@@ -14,6 +14,12 @@
 .title {
   color: var(--primary-color);
   font-size: 3rem;
+  border-color: rgb(48, 48, 48);
+  border-width: 2px;
+  border-style: dashed;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
