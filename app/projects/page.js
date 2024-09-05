@@ -32,7 +32,7 @@ const projects = [
 export default function Projects() {
   return (
     <div className = {styles.container}>
-      <h1 className= {styles.title}>projects</h1>
+      <h1 className= {styles.title}>Projects</h1>
       <VariedBentoGrid projects = {projects}></VariedBentoGrid>
     </div>
   )

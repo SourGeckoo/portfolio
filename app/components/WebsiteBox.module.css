@@ -1,16 +1,24 @@
 .WebsiteBox {
-   background-color: rgb(32, 32, 32);
-   border-radius: 10px;
+   background-color: rgb(14, 14, 14);
    padding: 20px;
    text-decoration: none;
    color: var(--text-color);
-   transition: transform 0.2s, box-shadow 0.2s;
+   transition: all 0.2s;
+   border-color: rgb(48, 48, 48);
+   border-width: 2px;
+   border-style: dashed;
+   padding: 30px;
  }
  
  .WebsiteBox:hover {
    transform: translateY(-5px);
-   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+   background-color: rgb(26, 26, 26);
  }
+
+ .WebsiteBox:active {
+  transform: translateY(3px);
+  background-color: rgb(0, 0, 0);
+}
  
  .title {
    color: var(--primary-color);
