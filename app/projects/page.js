@@ -7,22 +7,22 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const projects = [
   { slug: 'project1',
-     title: 'Project 1',
+     title: 'FPV drone',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
       image: "fpvdrone.jpg" },
 
   { slug: 'project2', 
-    title: 'Project 2', 
+    title: 'Computer vision dashcam', 
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
     image: "computervision.png" },
 
   { slug: 'project3',
-     title: 'Project 3', 
+     title: 'Digital clock', 
      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
      image: "7 segment.jpg" },
 
   { slug: 'project4', 
-    title: 'Project 4', 
+    title: 'Auto turret', 
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 
     image: "turret.png" },
 
