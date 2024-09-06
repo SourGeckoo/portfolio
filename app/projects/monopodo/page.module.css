@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -27,4 +27,23 @@
 .button:active {
  background-color: rgb(41, 20, 20);
  transform: translateY(3px);
+}
+
+.inlineimage {
+  max-width: 500px;
+  padding: 20px;
+  padding-top: 0;
+  float: right;
+}
+
+.caption {
+  text-align: right;
+  color: rgb(172, 172, 172);
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.figurecontainer {
+  padding-top: 0;
+  float: right;
 }
