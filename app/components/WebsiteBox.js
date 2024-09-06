@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './WebsiteBox.module.css'
 
-export default function WebsiteBox({ slug, title, description, image, link }) {
+export default function WebsiteBox({ title, description, image, link }) {
   return (
     <Link href={link} className={styles.WebsiteBox} target='blank'>
       <h1 className={styles.title}>{title}</h1>

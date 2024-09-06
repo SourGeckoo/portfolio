@@ -1,23 +1,17 @@
 .WebsiteBox {
-   background-color: rgb(14, 14, 14);
+   background-color: rgba(30, 27, 27, 0.685);
    padding: 20px;
    text-decoration: none;
    color: var(--text-color);
-   transition: all 0.2s;
    border-color: rgb(120, 120, 120);
    border-width: 2px;
    border-style: dashed;
    padding: 30px;
- }
- 
- .WebsiteBox:hover {
-   transform: translateY(-5px);
-   background-color: rgb(26, 26, 26);
+   transition: all 0.2s;
  }
 
- .WebsiteBox:active {
-  transform: translateY(3px);
-  background-color: rgb(0, 0, 0);
+.WebsiteBox:hover {
+   background-color: rgba(40, 36, 36, 0.773);
 }
  
  .title {

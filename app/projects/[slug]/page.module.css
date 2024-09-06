@@ -7,3 +7,24 @@
  .title {
    color: var(--primary-color);
  }
+
+ .button {
+  background-color: rgb(101, 41, 41);
+  backdrop-filter: blur(20px);
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px;
+  font-size: 1.5rem;;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  background-color: rgb(41, 20, 20);
+  transform: translateY(3px);
+}

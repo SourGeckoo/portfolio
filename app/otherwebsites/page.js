@@ -6,8 +6,7 @@ const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
 const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const websites = [
-  { slug: 'website1',
-    title: 'monopodo',
+  { title: 'monopodo',
     description: 'The simplest podomoro timer ever.', 
     image: "monopodo.png",
     link: "https://monopodo.vercel.app"},
@@ -21,7 +20,7 @@ export default function Projects() {
         <h1 className= {styles.title}>Other Websites</h1>
         <div className = {styles.bentoGrid}>
           {websites.map((websites) => (
-            <WebsiteBox key={websites.slug} {...websites} />
+            <WebsiteBox key={websites.title} {...websites} />
           ))}
         </div>
       </div>

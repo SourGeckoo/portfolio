@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className = {styles.page}>
       <div className = {styles.container}>
-        <h1 className = {styles.massivetext}>Welcome, traveller.</h1>
+        <h2 className = {styles.massivetext}>Welcome, traveller.</h2>
         <p>You have entered the land of the Sour Gecko.</p>
         <br></br>
         <hr></hr>
@@ -19,8 +19,7 @@ export default function Home() {
         <hr></hr>
         <br></br>
         <div className = {styles.buttoncontainer}>
-          <a href = "/projects"><button className = {styles.button}>see projects</button></a>
-          <a href = "/gallery"><button className = {styles.button}>see gallery</button></a>
+          <a href = "/projects/monopodo"><button className = {styles.button}>see latest project</button></a>
         </div>
       </div>
     </div>

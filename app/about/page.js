@@ -7,8 +7,12 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const socials = [
   { title: 'Github',
-    description: 'All source code and repositories are available here.',
+    description: 'All source code and repositories are available here!',
     link: "https://github.com/SourGeckoo"},
+
+  { title: 'bruh',
+    description: 'Nobody really knows.',
+    link: ""},
 ]
 
 export default function Projects() {

@@ -6,28 +6,28 @@ const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
 const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const projects = [
-  { slug: 'project1',
+  { slug: 'fpvdrone',
      title: 'FPV drone',
       description: 'Short description of project goes here', 
       image: "fpvdrone.jpg" },
 
 
-  { slug: 'project2', 
+  { slug: 'autoturret', 
     title: 'Auto turret', 
     description: 'Short description of project goes here', 
     image: "turret.png" },
 
-  { slug: 'project3',
+  { slug: 'digitalclock',
      title: 'Digital clock', 
      description: 'Short description of project goes here', 
      image: "7 segment.jpg" },
 
-  { slug: 'project4', 
+  { slug: 'computervisioncam', 
   title: 'Computer vision cam', 
   description: 'Short description of project goes here', 
   image: "cam.jpg" },
 
-  { slug: 'project5', 
+  { slug: 'monopodo', 
     title: 'monopodo', 
     description: 'Simple podomoro timer made in Next.js (my first deployed website)', 
     image: "" },

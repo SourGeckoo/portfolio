@@ -4,6 +4,7 @@
   --primary-color: #953d3d;
   --background-color: #000000;
   --text-color: #ffffff;
+  user-select: none;
 }
 
 * {
@@ -24,6 +25,7 @@ h1 {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
+  color: var(--primary-color)
 }
 
 h2 {

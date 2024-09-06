@@ -17,7 +17,7 @@
  }
  
  .bentoItem {
-   background-color: #101010;
+   background-color: rgba(30, 27, 27, 0.685);
    border-color: rgb(120, 120, 120);
    border-width: 2px;
    border-style: dashed;
@@ -29,7 +29,7 @@
  
  .bentoItem:hover {
    transform: translateY(-5px);
-   background-color: #1c1c1c;
+   background-color: rgba(41, 37, 37, 0.802);;
  }
 
  .bentoItem:active {
@@ -43,7 +43,7 @@
  }
  
  .item2 {
-   grid-column: span 1;
+   grid-column: span 2;
    grid-row: span 1;
  }
  
