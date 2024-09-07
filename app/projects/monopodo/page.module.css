@@ -9,41 +9,63 @@
 }
 
 .button {
- background-color: rgb(101, 41, 41);
- backdrop-filter: blur(20px);
- border: none;
- cursor: pointer;
- color: white;
- padding: 15px;
- font-size: 1.5rem;;
- transition: all 0.2s ease-in-out;
+  background-color: rgb(101, 41, 41);
+  backdrop-filter: blur(20px);
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 15px;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in-out;
 }
 
 .button:hover {
- background-color: var(--primary-color);
- transform: translateY(-3px);
+  background-color: var(--primary-color);
+  transform: translateY(-3px);
 }
 
 .button:active {
- background-color: rgb(41, 20, 20);
- transform: translateY(3px);
+  background-color: rgb(41, 20, 20);
+  transform: translateY(3px);
 }
 
 .inlineimage {
-  max-width: 500px;
-  padding-bottom: 20px;
-  padding-top: 0;
-  float: right;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .caption {
-  text-align: right;
+  text-align: center;
   color: rgb(172, 172, 172);
   font-style: italic;
   margin-top: 10px;
 }
 
 .figurecontainer {
+  text-align: center;
   padding-top: 0;
-  float: right;
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 1rem;
+    padding: 8px;
+  }
+  
+  .container {
+    padding: 5px;
+  }
 }
