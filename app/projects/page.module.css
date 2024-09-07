@@ -5,12 +5,13 @@
  }
 
  .page {
-  min-width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  border: 0;
   background-image: url("/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
  
  .bentoGrid {

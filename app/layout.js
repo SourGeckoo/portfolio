@@ -2,8 +2,7 @@ import './globals.css'
 import Header from './components/Header'
 
 export const metadata = {
-  title: 'portfolio',
-  description: 'nothing yet',
+  title: 'Sour Gecko',
 }
 
 export default function RootLayout({ children }) {

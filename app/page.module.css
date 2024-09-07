@@ -1,22 +1,21 @@
 .page {
-  min-width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
-  padding: 0;
-  margin: 0;
-  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.container2 {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  text-align: center;
 }
 
 .button {
@@ -25,8 +24,8 @@
   border: none;
   cursor: pointer;
   color: white;
-  padding: 25px;
-  font-size: 1.2rem;
+  padding: 15px 30px;
+  font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -45,6 +44,7 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex-direction: column;
 }
 
 .bentoGrid {
@@ -55,20 +55,17 @@
 }
 
 .inlineimage {
-  max-width: 500px;
+  max-width: 100%;
   padding: 20px;
   padding-top: 0;
-  float: right;
-  padding-left: 0;
+  float: none;
+  margin: 0 auto;
 }
 
 .massivetext {
-  font-size: 8rem;
-  margin-top: 0;
-  padding: 50px;
-  padding-left: 0;
-  padding-bottom: 0;
-  margin-bottom: 0;
+  font-size: 6vw;
+  margin: 0;
+  padding: 0;
 }
 
 .question {
@@ -78,40 +75,22 @@
 }
 
 @media (max-width: 768px) {
-  .bentoGrid {
-    grid-template-columns: 1fr;
+  .massivetext {
+    font-size: 4rem;
   }
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+@media (max-width: 480px) {
+  .button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 
-.bento-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px 0;
-}
+  .massivetext {
+    font-size: 10vw;
+  }
 
-.bento-box {
-  background-color: rgb(62, 61, 61);
-  border-radius: 10px;
-  padding: 20px;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.bento-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-  .bento-grid {
-    grid-template-columns: 1fr;
+  .question {
+    font-size: 1.2rem;
   }
 }
