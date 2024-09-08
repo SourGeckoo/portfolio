@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './projectsgrid.module.css';
 import BentoBox from './BentoBox';
 
-const VariedBentoGrid = ({ projects }) => {
+const ProjectsGrid = ({ projects }) => {
   return (
     <div className={styles.container}>
       <div className={styles.bentoGrid}>
@@ -16,4 +16,4 @@ const VariedBentoGrid = ({ projects }) => {
   );
 };
 
-export default VariedBentoGrid;
+export default ProjectsGrid;

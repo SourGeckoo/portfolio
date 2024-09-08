@@ -7,3 +7,7 @@
    color: var(--primary-color);
    margin-top: 0;
  }
+
+ .date {
+  color: rgb(167, 167, 167);
+ }

@@ -29,6 +29,7 @@
   padding: 15px;
   font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
+  margin-bottom: 100px;
 }
 
 .button:hover {
