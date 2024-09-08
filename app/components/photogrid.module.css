@@ -3,22 +3,16 @@
   margin: 0 auto;
 }
 
-.title {
-  color: var(--primary-color);
-  font-size: 2rem; /* Adjusted title size */
-  margin-bottom: 20px;
-}
-
 .bentoGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for better balance */
-  grid-auto-rows: minmax(200px, auto); /* Maintains minimum row height */
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 10px;
 }
 
 .bentoItem {
   background-color: rgb(39, 33, 32);
-  padding: 20px; /* Maintains padding for spacing */
+  padding: 15px;
   transition: transform 0.2s, background-color 0.2s;
   display: flex;
   flex-direction: column;
@@ -30,6 +24,10 @@
   object-fit: cover;
   border-radius: 5px;
   margin-top: auto;
+}
+
+.bentoItem p {
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {

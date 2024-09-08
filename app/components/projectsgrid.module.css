@@ -75,7 +75,7 @@
      grid-template-columns: repeat(2, 1fr);
    }
    
-   .item1, .item2 {
+   .bentoItem {
      grid-column: span 2;
      grid-row: span 1;
    }
@@ -86,7 +86,7 @@
     grid-template-columns: 1fr;
    }
    
-   .item1, .item2, .item3, .item4 {
+   .bentoItem {
      grid-column: span 1;
    }
  }

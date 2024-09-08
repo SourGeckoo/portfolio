@@ -1,10 +1,13 @@
 .page {
-  min-width: 100%;
+  min-width: 100vw;
   min-height: 100vh;
-  padding: 0;
+  background-image: url("/wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
   margin: 0;
-  border: 0;
-  background-color: rgb(34, 29, 27);
 }
 
 .container {
@@ -15,7 +18,7 @@
 
 .title {
   color: var(--primary-color);
-  font-size: 2.5rem; /* Default size for larger screens */
+  font-size: 2.5rem;
   border-color: rgb(120, 120, 120);
   border-width: 2px;
   border-style: dashed;
@@ -27,12 +30,12 @@
 
 @media (max-width: 900px) {
   .title {
-    font-size: 2rem; /* Reduced size for screens between 481px and 900px */
+    font-size: 2rem;
   }
 }
 
 @media (max-width: 480px) {
   .title {
-    font-size: 1.5rem; /* Further reduced size for smaller screens */
+    font-size: 1.5rem;
   }
 }

@@ -10,8 +10,8 @@ const socials = [
     description: 'All source code and repositories are available here!',
     link: "https://github.com/SourGeckoo"},
 
-  { title: 'Who am I?',
-    description: 'Nobody really knows.',
+  { title: 'what',
+    description: 'i dunno',
     link: ""},
 ]
 
