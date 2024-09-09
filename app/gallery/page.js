@@ -7,7 +7,7 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const photos = [
   { image: 'mapleforest.png',
-    description: "Minecraft with Biomes o' plenty, complimentary reimagined and falling leaves (maple biome)"
+    description: "Modded Minecraft maple biome, complimentary reimagined"
    },
    { image: 'moon.jpg',
     description: 'Full moon from southern hemisphere'
@@ -15,6 +15,9 @@ const photos = [
    { image: 'rice v2.png',
     description: 'My Linux rice, on Raspberry Pi OS'
    },
+   {image: 'cow.png',
+    description: "cow."
+   }
 ]
 
 export default function Projects() {
