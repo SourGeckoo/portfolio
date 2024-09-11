@@ -1,16 +1,35 @@
+import React from 'react'
 import Link from 'next/link'
+import { Home, FolderOpen, User, Image, Globe } from 'lucide-react'
 import styles from './Header.module.css'
 
-export default function Header() {
+const Header = () => {
   return (
     <header className={styles.header}>
-      <nav className = {styles.navbar}>
-        <Link href="/" className={styles.link}>Home</Link>
-        <Link href="/projects/" className={styles.link}>Projects</Link>
-        <Link href="/about/" className={styles.link}>About</Link>
-        <Link href="/gallery/" className={styles.link}>Gallery</Link>
-        <Link href="/otherwebsites/" className={styles.link}>Other Websites</Link>
+      <nav className={styles.navbar}>
+        <Link href="/" className={styles.link}>
+          <Home className={styles.icon} />
+          <span className={styles.linkText}>Home</span>
+        </Link>
+        <Link href="/projects/" className={styles.link}>
+          <FolderOpen className={styles.icon} />
+          <span className={styles.linkText}>Projects</span>
+        </Link>
+        <Link href="/about/" className={styles.link}>
+          <User className={styles.icon} />
+          <span className={styles.linkText}>About</span>
+        </Link>
+        <Link href="/gallery/" className={styles.link}>
+          <Image className={styles.icon} />
+          <span className={styles.linkText}>Gallery</span>
+        </Link>
+        <Link href="/otherwebsites/" className={styles.link}>
+          <Globe className={styles.icon} />
+          <span className={styles.linkText}>Other Websites</span>
+        </Link>
       </nav>
     </header>
   )
 }
+
+export default Header
