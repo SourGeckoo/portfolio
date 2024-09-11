@@ -20,7 +20,7 @@ export default function ProjectPage({ params }) {
             <p className={styles.caption}>Fig. 1: The timer itself, before colours were added.</p>
         </div>
 
-        <p>This is the code for the reducer, which I'm very proud of. It's basically just a timer function, with different modes and lengths associated with them. I learnt about function cases, which I actually never learnt when I was first learning the basics of Javascript.</p>
+        <p>This is the code for the reducer, which I'm very proud of. It's basically just a timer function, with different modes and lengths associated with each mode. I learnt about function cases, which I actually never learnt when I was first learning the basics of Javascript.</p>
 
         <div className = {styles.codecontainer}>
           <CodeBlock language = "javascript" codeString=
