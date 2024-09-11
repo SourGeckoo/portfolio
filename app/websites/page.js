@@ -17,7 +17,7 @@ export default function Projects() {
   return (
     <div className = {styles.page}>
       <div className = {styles.container}>
-        <h1 className= {styles.title}>Other Websites</h1>
+        <h1 className= {styles.title}>Websites</h1>
         <div className = {styles.bentoGrid}>
           {websites.map((websites) => (
             <WebsiteBox key={websites.title} {...websites} />

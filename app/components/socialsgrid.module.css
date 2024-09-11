@@ -48,7 +48,7 @@
  }
  
  .item3, .item4 {
-   grid-column: span 1;
+   grid-column: span 3;
    grid-row: span 1;
  }
  

@@ -23,9 +23,9 @@ const Header = () => {
           <Image className={styles.icon} />
           <span className={styles.linkText}>Gallery</span>
         </Link>
-        <Link href="/otherwebsites/" className={styles.link}>
+        <Link href="/websites/" className={styles.link}>
           <Globe className={styles.icon} />
-          <span className={styles.linkText}>Other Websites</span>
+          <span className={styles.linkText}>Websites</span>
         </Link>
       </nav>
     </header>
