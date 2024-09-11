@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   overflow: hidden;
   height: 100%;
-  margin: 0;
 }
 
 .title {
@@ -54,6 +53,10 @@
   color: rgb(172, 172, 172);
   font-style: italic;
   margin-top: 10px;
+}
+
+.codecontainer {
+  margin: 10px;
 }
 
 .figurecontainer {

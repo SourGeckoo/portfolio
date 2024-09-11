@@ -1,9 +1,5 @@
 import styles from './page.module.css'
-import { DM_Mono, Work_Sans } from "next/font/google";
 import ProjectsGrid from '../components/projectsgrid';
-
-const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
-const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const projects = [
   { slug: 'monopodo', 
