@@ -18,6 +18,10 @@
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
 }
 
 .button {
@@ -78,12 +82,21 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    justify-content: flex-start;
+    padding-top: 20vh;
+  }
+
   .massivetext {
     font-size: 4rem;
   }
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding-top: 15vh;
+  }
+
   .button {
     padding: 10px 20px;
     font-size: 0.9rem;
