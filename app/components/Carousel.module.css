@@ -2,7 +2,7 @@
    width: 100%;
    overflow: hidden;
    position: relative;
-   padding: 0 50px;
+   padding: 0 100px;
 }
  
 .carouselWrapper {
@@ -30,12 +30,10 @@
  
 .carouselItem.focused {
    opacity: 1;
-   filter: blur(0);
 }
  
 .carouselItem.blurred {
-   opacity: 0.1;
-   filter: blur(5px);
+   opacity: 0.2;
 }
  
 .buttonContainer {
@@ -45,7 +43,7 @@
 }
  
 .carouselButton {
-   background-color: rgba(0, 0, 0, 0.296);
+   background-color: var(--background-slightly-low);
    color: white;
    border: none;
    padding: 10px 30px;
@@ -56,12 +54,12 @@
 }
  
 .carouselButton:hover {
-   background-color: rgba(0, 0, 0, 0.8);
+   background-color: var(--background-medium);
    transform: translateY(-5px);
 }
  
 .carouselButton:active {
-   background-color: rgb(187, 187, 187);
+   background-color: var(--background-darker);
    transform: translateY(1px);
 }
  
@@ -112,10 +110,5 @@
    .carouselItem {
      flex: 0 0 33.333%;
      max-width: 33.333%;
-   }
- 
-   .carouselItem.blurred {
-     opacity: 1;
-     filter: blur(0);
    }
  }

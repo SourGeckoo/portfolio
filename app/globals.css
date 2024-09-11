@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
 :root {
-  --primary-color: #953d3d;
-  --background-color: #000000;
-  --text-color: #ffffff;
+  --red: #cc241d;
+  --green: #98971a;
+  --yellow: #d79921;
+  --blue: #458588;
+  --purple: #b16296;
+  --aqua: #689d6a;
+  --background: #282828;
+  --background-slightly-low: #2a2a2a;
+  --background-low: #323131;
+  --background-medium: #3c3836;
+  --background-lighter: #504945;
+  --background-darker: #1d2021;
+  --grey: #a89984;
+  --white: #ebdbb2;
   user-select: none;
 }
 
@@ -14,10 +25,11 @@
 body {
   font-family: 'DM Mono', Arial, sans-serif; /* FALLBACK FONT */
   line-height: 1.6;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  color: var(--white);
+  background-color: var(--background);
   margin: 0;
   padding: 0;
+  background-image: radial-gradient(var(--background), var(--background-darker));
 }
 
 h1 {
@@ -25,7 +37,7 @@ h1 {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
-  color: var(--primary-color)
+  color: var(--red);
 }
 
 h2 {
@@ -33,6 +45,7 @@ h2 {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
+  color: var(--yellow);
 }
 
 h3 {
@@ -40,10 +53,11 @@ h3 {
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
+  color: var(--aqua);
 }
 
 a {
-  color: rgb(99, 156, 172);
+  color: var(--blue);
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -58,6 +72,7 @@ p {
   padding-top: 0;
   padding-bottom: 0;
   font-size: 1.3rem;
+  color: var(--white);
 }
 
 button {

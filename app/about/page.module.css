@@ -7,10 +7,6 @@
  .page {
   min-width: 100vw;
   min-height: 100vh;
-  background-image: url("/wallpaper.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   overflow-x: hidden;
 }
  
@@ -22,7 +18,7 @@
  }
  
  .title {
-   color: var(--primary-color);
+   color: var(--yellow);
    font-size: 3rem;
    border-color: rgb(120, 120, 120);
    border-width: 2px;

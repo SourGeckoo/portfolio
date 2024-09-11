@@ -1,13 +1,13 @@
 .bentoBox {
    text-decoration: none;
-   color: var(--text-color);
+   color: var(--white);
  }
  
  .title {
-   color: var(--primary-color);
+   color: var(--red);
    margin-top: 0;
  }
 
  .date {
-  color: rgb(167, 167, 167);
+  color: var(--aqua);
  }

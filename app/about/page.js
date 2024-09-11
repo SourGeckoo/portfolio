@@ -8,7 +8,12 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 const socials = [
   { title: 'Github',
     description: 'All source code and repositories are available here!',
-    link: "https://github.com/SourGeckoo"},
+    link: "https://github.com/SourGeckoo",
+    target: "_blank"},
+
+  { title: 'This site',
+    description: "This site is just a place where I can show off all the cool stuff I've made and done over the years. I've made it from scratch using Next.js, and themed it around the Gruvbox Dark theme. Hope you enjoy your stay! ",
+    link: "/",},
 ]
 
 export default function Projects() {

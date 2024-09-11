@@ -6,10 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/wallpaper.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   overflow: hidden;
   height: 100%;
   margin: 0;
@@ -27,7 +23,7 @@
 }
 
 .button {
-  background-color: rgba(0, 0, 0, 0.453);
+  background-color: var(--background-slightly-low);
   backdrop-filter: blur(20px);
   border: none;
   cursor: pointer;
@@ -40,12 +36,12 @@
 }
 
 .button:hover {
-  background-color: rgba(36, 36, 36, 0.626);
+  background-color: var(--background-medium);
   transform: translateY(-3px);
 }
 
 .button:active {
-  background-color: rgba(0, 0, 0, 0.84);
+  background-color: var(--background-darker);
   transform: translateY(3px);
 }
 
@@ -73,10 +69,11 @@
 }
 
 .massivetext {
+  color: var(--yellow);
   font-size: 6vw;
   margin: 0;
   padding: 0;
-  animation: fadeIn 1s ease-out;
+  animation: moveIn 1s ease-out;
 }
 
 .question {
@@ -115,7 +112,7 @@
   }
 }
 
-@keyframes fadeIn {
+@keyframes moveIn {
   from {
     opacity: 0;
     transform: translateY(20px);
@@ -124,6 +121,17 @@
   to {
     opacity: 1;
     transform: translateY(0px);
+    scale: 100%
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    scale: 97%;
+  }
+  to {
+    opacity: 1;
     scale: 100%
   }
 }

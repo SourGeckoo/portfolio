@@ -1,8 +1,7 @@
 .WebsiteBox {
-   background-color: rgba(30, 27, 27, 0.685);
    padding: 20px;
    text-decoration: none;
-   color: var(--text-color);
+   color: var(--red);
    border-color: rgb(120, 120, 120);
    border-width: 2px;
    border-style: dashed;
@@ -11,7 +10,7 @@
  }
 
 .WebsiteBox:hover {
-   background-color: rgba(40, 36, 36, 0.773);
+   background-color: rgba(255, 255, 255, 0.034);
 }
  
  .title {

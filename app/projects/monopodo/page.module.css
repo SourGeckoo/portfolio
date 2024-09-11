@@ -7,20 +7,16 @@
 .page {
   min-width: 100vw;
   min-height: 100vh;
-  background-image: url("/wallpaper.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   overflow: hidden;
   height: 100%;
 }
 
 .title {
-  color: var(--primary-color);
+  color: var(--yellow);
 }
 
 .button {
-  background-color: rgb(101, 41, 41);
+  background-color: var(--background-slightly-low);
   backdrop-filter: blur(20px);
   border: none;
   cursor: pointer;
@@ -32,12 +28,12 @@
 }
 
 .button:hover {
-  background-color: var(--primary-color);
+  background-color: var(--background-medium);
   transform: translateY(-3px);
 }
 
 .button:active {
-  background-color: rgb(41, 20, 20);
+  background-color: var(--background);
   transform: translateY(3px);
 }
 
@@ -50,7 +46,7 @@
 
 .caption {
   text-align: center;
-  color: rgb(172, 172, 172);
+  color: var(--grey);
   font-style: italic;
   margin-top: 10px;
 }
