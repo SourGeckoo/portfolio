@@ -2,7 +2,7 @@
    width: 100%;
    overflow: hidden;
    position: relative;
-   padding: 0 100px;
+   padding: 0 0px; /* change second value to add view of next / previous images */
 }
  
 .carouselWrapper {

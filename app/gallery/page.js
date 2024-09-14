@@ -18,6 +18,9 @@ const photos = [
    {image: 'cow.png',
     description: "cow."
    },
+   {image: 'bowerbird.png',
+    description: "Satin bowerbird in a rainforest"
+   }
 ]
 
 export default function Projects() {

@@ -34,11 +34,11 @@
 }
 
 .link:hover {
-  background-color: var(--background-medium);
+  background-color: var(--background-darker);
 }
 
 .link:active {
-  background-color: var(--background-darker);
+  background-color: var(--background-lighter);
 }
 
 @media (min-width: 768px) {

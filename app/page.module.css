@@ -9,7 +9,10 @@
   overflow: hidden;
   height: 100%;
   margin: 0;
-  background-image: radial-gradient(var(--background-low), var(--background-darker));
+  background-image: url("/pcb.jpeg");
+  background-color: var(--background);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -21,6 +24,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  opacity: 100%;
 }
 
 .button {

@@ -8,49 +8,41 @@ const projects = [
     image: "monopodo.png",
     date: "July 2024" },
   
-  { slug: 'fpvdrone',
-    title: 'FPV drone',
-    description: 'Short description of project goes here', 
-    image: "fpvdrone.jpg",
+  { slug: 'tbd1',
+    title: '???',
+    description: 'More projects currently in development', 
     date: "Coming soon"
     },
 
-  { slug: 'digitalclock',
-     title: 'Digital clock', 
-     description: 'Short description of project goes here', 
-     image: "7 segment.jpg",
-     date: "Coming soon" },
+  { slug: 'tbd2',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
 
-  { slug: 'autoturret', 
-  title: 'Auto turret', 
-  description: 'Short description of project goes here', 
-  image: "turret.png",
-  date: "Coming soon" },
+  { slug: 'tbd3',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
 
-  { slug: 'something1', 
-  title: 'what', 
-  description: 'Short description of project goes here', 
-  image: "",
-  date: "Coming soon" },
+  { slug: 'tbd4',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
 
-  { slug: 'something2', 
-    title: 'should', 
-    description: 'Short description of project goes here', 
-    image: "",
-    date: "Coming soon" },
+  { slug: 'tbd5',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
 
-  { slug: 'something3', 
-    title: 'i', 
-    description: 'Short description of project goes here', 
-    image: "",
-    date: "Coming soon" },
-
-  { slug: 'something4', 
-    title: 'build?', 
-    description: 'Short description of project goes here', 
-    image: "",
-    date: "Coming soon" },
-
+  { slug: 'tbd6',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
 ]
 
 export default function Projects() {

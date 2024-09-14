@@ -7,10 +7,11 @@
    border-style: dashed;
    padding: 30px;
    transition: all 0.2s;
+   background-color: var(--background-slightly-low);
  }
 
 .WebsiteBox:hover {
-   background-color: rgba(255, 255, 255, 0.034);
+  background-color: var(--background-low);
 }
  
  .title {
