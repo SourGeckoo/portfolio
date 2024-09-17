@@ -8,10 +8,11 @@ const projects = [
     image: "monopodo.png",
     date: "July 2024" },
   
-  { slug: 'tbd1',
-    title: '???',
-    description: 'More projects currently in development', 
-    date: "Coming soon"
+  { slug: 'smartclock',
+    title: 'Smart alarm clock',
+    description: 'Online synced smart clock using a Raspberry Pi', 
+    date: "September 2024",
+    image: "smartclock.jpg",
     },
 
   { slug: 'tbd2',
