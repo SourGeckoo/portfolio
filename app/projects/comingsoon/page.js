@@ -6,9 +6,9 @@ export default function ProjectPage({ params }) {
   return (
     <div className={styles.page}>
       <div className={styles.container}>
-        <h1 className={styles.title}>404</h1>
-        <h2 className = {styles.subtitle}>error. page not found.</h2>
-        <p>The page "{slug}" does not exist, or has been moved.</p>
+        <h1 className={styles.title}>Coming soon</h1>
+        <h2 className = {styles.subtitle}>Currently working on it.</h2>
+        <p>Building more cool stuff right now. Check back soon to see!</p>
         <a href = "/projects"><button className = {styles.button}>Go back to projects</button></a>
       </div>
     </div>

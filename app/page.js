@@ -7,7 +7,7 @@ export default function Home() {
         <h2 className={styles.massivetext}>Welcome, traveller.</h2>
         <br />
         <div className={styles.buttoncontainer}>
-          <a href="/projects/monopodo">
+          <a href="/projects/smartclock">
             <button className={styles.button}>see latest project</button>
           </a>
         </div>

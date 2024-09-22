@@ -16,7 +16,7 @@ export default function ProjectPage({ params }) {
           Turns out, the best solution was to create a web app myself using Next.js and Vercel. I decided to go with this framework for simplicity and because it was easy to learn. I basically self-taught myself the framework through this project, and made a fully functional tool in the process! This was my first time making a fully fledged website which I could publish, and using a proper Javascript framework while doing so.
         </p>
         <div className={styles.figurecontainer}>
-            <img src='/monopodo2.png' alt='Podomoro Timer' className={styles.inlineimage}/>
+            <img src='/monopodo2.png' className={styles.inlineimage}/>
             <p className={styles.caption}>Fig. 1: The timer itself, before colours were added.</p>
         </div>
 

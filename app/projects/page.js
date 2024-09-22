@@ -15,31 +15,31 @@ const projects = [
     image: "smartclock.jpg",
     },
 
-  { slug: 'tbd2',
+  { slug: 'comingsoon',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
     },
 
-  { slug: 'tbd3',
+  { slug: 'hmm',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
     },
 
-  { slug: 'tbd4',
+  { slug: 'i dunno',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
     },
 
-  { slug: 'tbd5',
+  { slug: 'comingsoon',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
     },
 
-  { slug: 'tbd6',
+  { slug: 'what',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
