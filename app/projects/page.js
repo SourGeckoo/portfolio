@@ -5,14 +5,14 @@ const projects = [
   { slug: 'monopodo', 
     title: 'monopodo', 
     description: 'Simple podomoro timer made in Next.js', 
-    image: "monopodo.png",
+    image: "/monopodo.png",
     date: "July 2024" },
   
   { slug: 'smartclock',
     title: 'Smart alarm clock',
     description: 'Online synced smart clock using a Raspberry Pi', 
     date: "September 2024",
-    image: "smartclock.jpg",
+    image: "/smartclock.jpg",
     },
 
   { slug: 'comingsoon',

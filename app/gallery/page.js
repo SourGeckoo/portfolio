@@ -6,19 +6,19 @@ const DMMono = DM_Mono({subsets: ["latin"], weight: ["300", "400", "500"]})
 const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 
 const photos = [
-  { image: 'mapleforest.png',
+  { image: '/mapleforest.png',
     description: "Maple forest with shaders"
    },
-   { image: 'moon.jpg',
+   { image: '/moon.jpg',
     description: 'Full moon from southern hemisphere'
    },
-   { image: 'rice v2.png',
+   { image: '/rice v2.png',
     description: 'My Linux rice, on Raspberry Pi OS'
    },
-   {image: 'cow.png',
+   {image: '/cow.png',
     description: "cow."
    },
-   {image: 'bowerbird.png',
+   {image: '/bowerbird.png',
     description: "Satin bowerbird in a rainforest"
    }
 ]

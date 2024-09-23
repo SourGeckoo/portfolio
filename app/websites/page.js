@@ -8,7 +8,7 @@ const WorkSans = Work_Sans({subsets: ["latin"], weight: ["300", "400", "500"]})
 const websites = [
   { title: 'monopodo',
     description: 'The simplest podomoro timer ever.', 
-    image: "monopodo.png",
+    image: "/monopodo.png",
     link: "https://monopodo.vercel.app"},
 
 ]
