@@ -51,9 +51,11 @@ export default function ProjectPage({ params }) {
         <p>But then I realised I could take this project a little further. So I decided to add a button and hook it up to the DPIO pins to send input to the Pi. Then, after some additions to the code, I could switch between modes by pressing the button.</p>
 
         <div className={styles.figurecontainer}>
-            <img src='/hmmmm.jpg' className={styles.inlineimage}/>
+            <img src='/withbutton.jpg' className={styles.inlineimage}/>
             <p className={styles.caption}>Fig. 5: The full clock system with the button added</p>
         </div>
+
+        <p>Then I wired a 3 pin speaker module and tried playing tones on it. After making a beep whenever the mode is switched, I was inspired to add an alarm clock system.</p>
 
         <a href="/projects">
           <button className={styles.button}>Go back to projects</button>
