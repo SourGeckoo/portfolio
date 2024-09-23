@@ -21,13 +21,7 @@ const projects = [
     date: "Coming soon"
     },
 
-  { slug: 'hmm',
-    title: '???',
-    description: 'More projects currently in development', 
-    date: "Coming soon"
-    },
-
-  { slug: 'i dunno',
+  { slug: 'comingsoon',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
@@ -39,7 +33,13 @@ const projects = [
     date: "Coming soon"
     },
 
-  { slug: 'what',
+  { slug: 'comingsoon',
+    title: '???',
+    description: 'More projects currently in development', 
+    date: "Coming soon"
+    },
+
+  { slug: 'comingsoon',
     title: '???',
     description: 'More projects currently in development', 
     date: "Coming soon"
